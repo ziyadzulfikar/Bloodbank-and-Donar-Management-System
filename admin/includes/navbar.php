@@ -1,33 +1,26 @@
- <!-- Navbar -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-            <!-- Navbar brand -->
-            <a class="navbar-brand" href="index.php">Brand</a>
-
-            <!-- Toggle button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-
-            <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Left links -->
-                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" name = "about" href="donor.php?content_id=donor">Donors</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contribute</a>
-                    </li>
-                </ul>
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: #440000" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><span><img src="../assets/img/navbar-logo.svg" style="height: 7vh;" alt="" /></span></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto text-center">
+                    <li class="nav-item pl-2 mb-2 mb-md-0">
+                              <a href="donor.php" type="button" onMouseOver="this.style.color='#a3a3a3'" onMouseOut="this.style.color='white'"
+                              class="btn btn-outline-light btn-md btn-rounded btn-navbar waves-effect waves-light">Add Donors</a>
+                            </li>
+                        <li class="nav-item pl-2 mb-2 mb-md-0">
+                            <a href="index.php" type="button" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='#ffa900'"
+                              class="btn btn-outline-warning btn-md btn-rounded btn-navbar waves-effect waves-light">Home</a>
+                        </li>
+                        <li class="nav-item pl-2 mb-2 mb-md-0">
+                            <a href="logout.php" type="button" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='#f93154'"
+                              class="btn btn-outline-danger btn-md btn-rounded btn-navbar waves-effect waves-light">Sign Out</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <!-- Collapsible wrapper -->
-        </div>
-        <!-- Container wrapper -->
-    </nav>
-    <!-- Navbar -->
+        </nav>
