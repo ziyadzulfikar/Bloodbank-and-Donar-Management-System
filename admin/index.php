@@ -35,7 +35,7 @@ if(!isset($_SESSION["signin"]) || $_SESSION["signin"] !== true){
                             <th scope="col">Email</th>
                             <th scope="col">Mobile</th>
                             <th scope="col">Blood Group</th>
-                            <th scope="col">Description</th>
+                            <th scope="col">Address</th>
                             <th scope="col">User</th>
                             <th scope="col"></th>
                             </tr>

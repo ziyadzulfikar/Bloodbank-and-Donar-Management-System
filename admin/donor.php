@@ -119,7 +119,7 @@ if(!isset($_SESSION["signin"]) || $_SESSION["signin"] !== true){
 
                             <div class="md-form">
                                 <textarea type="text" id="message" name="messages" rows="2" class="form-control md-textarea"></textarea>
-                                <label for="message">Add Descriptions</label>
+                                <label for="message">Address</label>
                             </div>
 
                         </div>

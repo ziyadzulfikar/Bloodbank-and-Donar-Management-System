@@ -58,8 +58,8 @@
                                     <p class="card-text"><?php
                                         echo "Email: " . $row["Email"]  . "<br />" ;
                                         echo "Mobile: " . $row["Mobile"] . "<br />" ;
-                                        echo "Blood Group: " . $row["BloodGroup"];
-                                        echo "<br />" . $row["Descriptions"]; 
+                                        echo "Blood Group: " . $row["BloodGroup"]. "<br />";
+                                        echo "Address" . $row["Descriptions"]; 
                                         ?>
                                     </p>
                                 </div>
@@ -86,7 +86,7 @@
                                     echo "Email: " . $row["Email"]  . "<br />" ;
                                     echo "Mobile: " . $row["Mobile"] . "<br />" ;
                                     echo "Blood Group: " . $row["BloodGroup"];
-                                    echo "<br />" . $row["Descriptions"]; 
+                                    echo "Address" . $row["Descriptions"]; 
                                     ?>
                                 </p>
                                 <form action='delete.php?id="<?php echo $row["id"]; ?>"' method="POST">

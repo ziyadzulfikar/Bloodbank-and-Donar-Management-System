@@ -109,7 +109,7 @@
 
                             <div class="md-form">
                                 <textarea type="text" id="message" name="messages" rows="2" class="form-control md-textarea"></textarea>
-                                <label for="message">Your message</label>
+                                <label for="message">Your Address</label>
                             </div>
 
                         </div>
